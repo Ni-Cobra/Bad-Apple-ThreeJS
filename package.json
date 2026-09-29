@@ -1,0 +1,15 @@
+{
+  "name": "bad-apple-threejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Bad Apple!! silhouette video recreated in true 3D with Three.js: modeled characters, animated performances, a film render and a behind-the-scenes render, scored against the original.",
+  "license": "MIT",
+  "scripts": {
+    "preview": "node tools/server.mjs 8080",
+    "video": "./make_video.sh"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0",
+    "three": "^0.186.0"
+  }
+}
