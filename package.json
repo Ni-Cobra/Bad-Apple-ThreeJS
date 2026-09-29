@@ -1,0 +1,15 @@
+{
+  "name": "bad-apple-threejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Engine, tools and scoring pipeline for recreating the Bad Apple!! silhouette video in true 3D with Three.js: an empty scene and a kickoff prompt for your own agent.",
+  "license": "MIT",
+  "scripts": {
+    "preview": "node tools/server.mjs 8080",
+    "video": "./make_video.sh"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0",
+    "three": "^0.186.0"
+  }
+}

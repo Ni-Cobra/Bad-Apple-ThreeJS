@@ -1,0 +1,7 @@
+bad_apple_original.mp4
+node_modules
+tmp_out/
+deliverable/
+*.log
+.venv
+__pycache__/
