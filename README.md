@@ -7,7 +7,21 @@ geometry, and every frame is scored against the original.
 
 ## Human note
 
-> _To be written._
+I first wanted to do something with GPT-6 Astra entirely, but every time it completely missed what I wanted and constantly tried to cheat by making up 2D shapes, it just couldn't get it right.
+
+So, I started from scratch with Opus 5.5, it succeeded surprisingly well, it immediately got what I was looking for, however I had to give few feedbacks because it often misinterpreted what the characters were doing. I didn't corrected every detail, but more the striking things only. So, you might say the experiment could be biased with human intervention instead of one-shotting it, but really, I didn't have to do that much.
+
+It built very good methodology and tooling, it defined its scoring and measurement/comparison systems unprompted, however what it lacked really was vision, and that showed more and more around Remilia, it was hallucinating stuff.
+
+That's when I brought GPT-6 Astra, something surprising is that it immediately one-shotted good portions with zero need for feedback (most striking example is 00:41-00:55), despite that it couldn't do something proper when starting from zero, but continuing on the existing work by Opus 5.5 turned it into a beast and it was also very good at figuring out transition, I'm impressed how well the Flandre-Youmu transition is done.
+
+I tried again GPT-6 Astra alone and it still did terrible a job, so, this could only be achieved by both models working together...
+
+Both had different views on the work and methods and thing to fix that was very interesting.
+I did only a part because I wanted to publish this fast, maybe prompt the rest of the video soon.
+
+I'm curious how future models will hold for a challenge like that, with no handholding ! I'm guessing it tackles mostly vision, but the ingenuity behind it is nice to appreciate too.
+Maybe one day we will have 0.999 score on it ?
 
 ---
 
